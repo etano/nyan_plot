@@ -49,6 +49,6 @@ def animate(i):
 
 # Call animation
 anim = animation.FuncAnimation(fig, animate, init_func=init, frames=90, interval=100, blit=False)
-anim.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
+anim.save('nyan_plot.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
 
 plt.show()
